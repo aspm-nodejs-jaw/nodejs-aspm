@@ -6,7 +6,7 @@ on:
     branches:
       - "**"
   workflow_dispatch: 
-permissions:
+permissions: 
   scm-token-own: read
   scm-token-org: read
   id-token: write
