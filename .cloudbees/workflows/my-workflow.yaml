@@ -24,7 +24,7 @@ jobs:
         name: Register the artifact
         uses: cloudbees-io/register-build-artifact@v1
         with:
-          name: nodejs-aspm
+          name: nodejs-aspm 
           version: nj 
           url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/nodejs-aspm:nj
       - name: Print output parameter artifact ID
